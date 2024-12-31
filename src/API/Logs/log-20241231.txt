@@ -1,0 +1,197 @@
+2024-12-31 00:16:25.613 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-31 00:16:25.737 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-31 00:16:25.775 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-31 00:16:27.059 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 00:16:27.073 +05:00 [INF] Hosting environment: Development
+2024-12-31 00:16:27.111 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-31 00:16:28.496 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-31 00:16:29.839 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1387.7797ms
+2024-12-31 00:16:32.561 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-31 00:16:32.609 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 48.4147ms
+2024-12-31 00:16:35.825 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-31 00:16:35.970 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 145.8599ms
+2024-12-31 00:16:41.609 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-31 00:16:41.761 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.5284ms
+2024-12-31 00:44:02.115 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-31 00:44:02.563 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-31 00:44:07.026 +05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-31 00:44:07.191 +05:00 [INF] Setting HTTP status code 200.
+2024-12-31 00:44:07.222 +05:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-31 00:44:07.254 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-31 00:44:07.276 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 200 null application/json; charset=utf-8 5177.2949ms
+2024-12-31 13:21:54.992 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-31 13:21:55.089 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-31 13:21:55.121 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-31 13:21:56.227 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 13:21:56.503 +05:00 [INF] Hosting environment: Development
+2024-12-31 13:21:56.559 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-31 13:21:56.855 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-31 13:21:57.490 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 653.8872ms
+2024-12-31 13:21:57.812 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-31 13:21:57.812 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-31 13:21:57.868 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 55.727ms
+2024-12-31 13:21:57.983 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.7981ms
+2024-12-31 13:21:58.192 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-31 13:21:58.240 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.8353ms
+2024-12-31 13:22:20.715 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-31 13:22:20.755 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-31 13:22:23.780 +05:00 [ERR] Failed executing DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM "Products" AS p
+2024-12-31 13:22:23.857 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Products" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Products" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Products" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Products" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-31 13:22:24.379 +05:00 [INF] Setting HTTP status code 500.
+2024-12-31 13:22:24.382 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-31 13:22:24.397 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 500 0 null 3683.4143ms
+2024-12-31 13:22:37.756 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/ - null null
+2024-12-31 13:22:37.762 +05:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-31 13:22:37.766 +05:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-31 13:22:37.768 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/ - 200 null text/plain; charset=utf-8 12.5207ms
+2024-12-31 13:32:03.021 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-31 13:32:03.251 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-31 13:32:03.917 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-31 13:32:04.741 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-31 13:32:05.131 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 13:32:05.135 +05:00 [INF] Hosting environment: Development
+2024-12-31 13:32:05.138 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-31 13:32:05.710 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 991.2601ms
+2024-12-31 13:32:06.023 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-31 13:32:06.042 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-31 13:32:06.120 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 96.0476ms
+2024-12-31 13:32:06.308 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 265.4696ms
+2024-12-31 13:32:06.741 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-31 13:32:06.772 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.9898ms
+2024-12-31 13:32:13.077 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-31 13:32:13.177 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-31 13:32:23.099 +05:00 [ERR] Failed executing DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM "Products" AS p
+2024-12-31 13:32:23.248 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Products" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Products" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Products" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Products" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-31 13:32:24.123 +05:00 [INF] Setting HTTP status code 500.
+2024-12-31 13:32:24.127 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-31 13:32:24.149 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 500 0 null 11071.8794ms
+2024-12-31 13:33:33.141 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-31 13:33:33.156 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-31 13:33:33.302 +05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM "Products" AS p
+2024-12-31 13:33:33.427 +05:00 [INF] Setting HTTP status code 200.
+2024-12-31 13:33:33.437 +05:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-31 13:33:33.460 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-31 13:33:33.467 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 200 null application/json; charset=utf-8 325.8207ms
+2024-12-31 13:38:57.246 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-31 13:38:57.420 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-31 13:38:58.909 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-31 13:38:59.384 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7064/api/products - null null
+2024-12-31 13:38:59.734 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-31 13:38:59.855 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-31 13:39:00.582 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-31 13:39:00.585 +05:00 [INF] Hosting environment: Development
+2024-12-31 13:39:00.587 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-31 13:39:01.530 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1794.7589ms
+2024-12-31 13:39:01.875 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-31 13:39:01.892 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-31 13:39:02.025 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 150.0951ms
+2024-12-31 13:39:02.496 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 604.2445ms
+2024-12-31 13:39:02.809 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-31 13:39:02.929 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.7183ms
+2024-12-31 13:39:09.178 +05:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM "Products" AS p
+2024-12-31 13:39:09.481 +05:00 [INF] Setting HTTP status code 200.
+2024-12-31 13:39:09.503 +05:00 [INF] Writing value of type 'List`1' as Json.
+2024-12-31 13:39:09.575 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-31 13:39:09.598 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7064/api/products - 200 null application/json; charset=utf-8 10548.1311ms

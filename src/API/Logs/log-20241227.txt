@@ -1,0 +1,835 @@
+2024-12-27 01:53:12.704 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 01:53:13.578 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger - null null
+2024-12-27 01:53:13.834 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 01:53:13.835 +05:00 [INF] Hosting environment: Development
+2024-12-27 01:53:13.836 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 01:53:15.039 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger - 301 null null 1469.4254ms
+2024-12-27 01:53:15.052 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-12-27 01:53:15.359 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 307.2382ms
+2024-12-27 01:53:15.467 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui-bundle.js - null null
+2024-12-27 01:53:15.470 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui.css - null null
+2024-12-27 01:53:15.585 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-27 01:53:15.761 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-27 01:53:15.801 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-27 01:53:15.802 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-12-27 01:53:15.807 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 01:53:15.809 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui.css - 200 152034 text/css 338.9263ms
+2024-12-27 01:53:15.813 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.0222ms
+2024-12-27 01:53:15.836 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 75.2655ms
+2024-12-27 01:53:15.840 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-27 01:53:16.012 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 544.3082ms
+2024-12-27 01:53:16.035 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 233.0276ms
+2024-12-27 01:53:16.655 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-12-27 01:53:16.680 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - null null
+2024-12-27 01:53:16.680 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.1696ms
+2024-12-27 01:53:16.688 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-27 01:53:16.688 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/favicon-32x32.png - 200 628 image/png 8.5281ms
+2024-12-27 01:53:29.185 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - null null
+2024-12-27 01:53:29.204 +05:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-27 01:53:29.207 +05:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-27 01:53:29.208 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - 200 null text/plain; charset=utf-8 22.6615ms
+2024-12-27 12:27:32.631 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 12:27:33.471 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-12-27 12:27:33.571 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 12:27:33.572 +05:00 [INF] Hosting environment: Development
+2024-12-27 12:27:33.572 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 12:27:34.869 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 1415.6412ms
+2024-12-27 12:27:34.963 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 12:27:34.996 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 19.9393ms
+2024-12-27 12:27:35.141 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-12-27 12:27:35.297 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.6941ms
+2024-12-27 12:27:35.824 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-12-27 12:27:35.859 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.5384ms
+2024-12-27 14:46:37.689 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 14:46:39.482 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/index.html - null null
+2024-12-27 14:46:39.570 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 14:46:39.571 +05:00 [INF] Hosting environment: Development
+2024-12-27 14:46:39.571 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 14:46:40.912 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/index.html - 200 null text/html;charset=utf-8 1463.0473ms
+2024-12-27 14:46:41.041 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 14:46:41.090 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 44.1377ms
+2024-12-27 14:46:41.092 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/_vs/browserLink - null null
+2024-12-27 14:46:41.448 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/_vs/browserLink - 200 null text/javascript; charset=UTF-8 355.7303ms
+2024-12-27 14:46:41.883 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - null null
+2024-12-27 14:46:41.913 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.7348ms
+2024-12-27 14:47:24.299 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/ - null null
+2024-12-27 14:47:24.319 +05:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-27 14:47:24.321 +05:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-27 14:47:24.322 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/ - 200 null text/plain; charset=utf-8 22.7474ms
+2024-12-27 14:47:31.514 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44315/products - null null
+2024-12-27 14:47:31.519 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 14:47:36.263 +05:00 [ERR] An error occurred using the connection to database 'db' on server 'tcp://localhost:5432'.
+2024-12-27 14:47:36.371 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "user"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "user"
+    File: auth.c
+    Line: 326
+    Routine: auth_failed
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "user"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "user"
+    File: auth.c
+    Line: 326
+    Routine: auth_failed
+2024-12-27 14:47:37.286 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 14:47:37.294 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 28P01: password authentication failed for user "user"
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Infrastructure.Repositories.GenericRepository`1.GetAllAsync() in D:\Projects\Github\CleanBoilerplate\src\Infrastructure\Repositories\GenericRepository.cs:line 63
+   at Application.Services.ProductService.GetAllProductsAsync() in D:\Projects\Github\CleanBoilerplate\src\Application\Services\ProductService.cs:line 24
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Program.cs:line 53
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: password authentication failed for user "user"
+    File: auth.c
+    Line: 326
+    Routine: auth_failed
+2024-12-27 14:47:37.394 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44315/products - 500 null text/plain; charset=utf-8 5880.8818ms
+2024-12-27 14:52:46.635 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 14:52:47.444 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 14:52:47.969 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 14:52:48.451 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 14:52:48.463 +05:00 [INF] Hosting environment: Development
+2024-12-27 14:52:48.471 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 14:52:48.619 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger - null null
+2024-12-27 14:52:49.012 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger - 301 0 null 428.1846ms
+2024-12-27 14:52:49.068 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 14:52:49.554 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 479.1136ms
+2024-12-27 14:52:49.616 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - null null
+2024-12-27 14:52:49.623 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-27 14:52:49.623 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - null null
+2024-12-27 14:52:49.626 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 14:52:49.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 14:52:49.741 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 115.8294ms
+2024-12-27 14:52:49.799 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-27 14:52:49.800 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-27 14:52:49.858 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 235.1595ms
+2024-12-27 14:52:49.858 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - 200 152034 text/css 243.2852ms
+2024-12-27 14:52:49.952 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-27 14:52:49.961 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 337.7388ms
+2024-12-27 14:52:49.966 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 261.402ms
+2024-12-27 14:52:50.492 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 14:52:50.551 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - null null
+2024-12-27 14:52:50.563 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-27 14:52:50.566 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - 200 628 image/png 14.5774ms
+2024-12-27 14:52:50.582 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.7944ms
+2024-12-27 17:55:04.961 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 17:55:06.164 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 17:55:06.168 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 17:55:06.352 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 17:55:06.359 +05:00 [INF] Hosting environment: Development
+2024-12-27 17:55:06.361 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 17:55:09.369 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 17:55:11.124 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1798.9073ms
+2024-12-27 17:55:13.029 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 17:55:13.053 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 23.8769ms
+2024-12-27 17:55:13.212 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 17:55:13.456 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 244.5093ms
+2024-12-27 17:55:15.076 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 17:55:15.124 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.3492ms
+2024-12-27 17:55:23.152 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 17:55:23.174 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 17:55:25.914 +05:00 [ERR] Failed executing DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM "Product" AS p
+2024-12-27 17:55:25.994 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Product" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Product" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Product" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Product" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-27 17:55:26.621 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 17:55:26.629 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Product" does not exist
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Infrastructure.Repositories.GenericRepository`1.GetAllAsync() in D:\Projects\Github\CleanBoilerplate\src\Infrastructure\Repositories\GenericRepository.cs:line 63
+   at Application.Services.ProductService.GetAllProductsAsync() in D:\Projects\Github\CleanBoilerplate\src\Application\Services\ProductService.cs:line 24
+   at Program.<>c.<<<Main>$>b__0_1>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Program.cs:line 53
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Product" does not exist
+    Position: 31
+    File: parse_relation.c
+    Line: 1452
+    Routine: parserOpenTable
+2024-12-27 17:55:26.820 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 500 null text/plain; charset=utf-8 3668.901ms
+2024-12-27 17:57:05.524 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 17:57:06.585 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 17:57:08.515 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 17:57:09.200 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 17:57:09.376 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 17:57:09.460 +05:00 [INF] Hosting environment: Development
+2024-12-27 17:57:09.465 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 17:57:09.989 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 811.7453ms
+2024-12-27 17:57:10.504 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 17:57:10.528 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 23.7121ms
+2024-12-27 17:57:10.807 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 17:57:10.888 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.8053ms
+2024-12-27 17:57:11.791 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 17:57:11.816 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.683ms
+2024-12-27 17:57:46.389 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 17:57:46.403 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 17:57:53.216 +05:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 17:57:53.361 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 17:57:53.552 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 7163.3855ms
+2024-12-27 17:58:26.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 17:58:26.710 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 17:58:27.113 +05:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 17:58:27.518 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 17:58:27.552 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 847.1157ms
+2024-12-27 18:11:32.760 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 18:11:32.853 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 18:11:32.898 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 18:11:33.217 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 18:11:33.331 +05:00 [INF] Hosting environment: Development
+2024-12-27 18:11:33.339 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 18:11:34.132 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 18:11:35.104 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 993.6461ms
+2024-12-27 18:11:35.202 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 18:11:35.221 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 19.5107ms
+2024-12-27 18:11:35.296 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 18:11:35.470 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.6171ms
+2024-12-27 18:11:35.896 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 18:11:35.964 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.918ms
+2024-12-27 18:11:42.404 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/ - null null
+2024-12-27 18:11:42.434 +05:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-27 18:11:42.437 +05:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-27 18:11:42.441 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/ - 200 null text/plain; charset=utf-8 36.1962ms
+2024-12-27 18:11:51.056 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 18:11:51.068 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 18:11:53.521 +05:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 18:11:53.722 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 18:11:53.747 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 2690.8172ms
+2024-12-27 18:12:13.404 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/secure-endpoint - null null
+2024-12-27 18:12:13.438 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-27 18:12:13.450 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to find the required 'IAuthenticationService' service. Please add all the required services by calling 'IServiceCollection.AddAuthentication' in the application startup code.
+   at Microsoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.GetAuthenticationService(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.ChallengeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 18:12:13.540 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/secure-endpoint - 500 null text/plain; charset=utf-8 137.538ms
+2024-12-27 18:13:42.298 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 18:13:42.388 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 18:13:42.424 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 18:13:43.121 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 18:13:43.174 +05:00 [INF] Hosting environment: Development
+2024-12-27 18:13:43.175 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 18:13:43.287 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 18:13:44.396 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1130.3038ms
+2024-12-27 18:13:44.430 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 18:13:44.430 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 18:13:44.454 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 24.8773ms
+2024-12-27 18:13:44.585 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 155.937ms
+2024-12-27 18:13:44.884 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 18:13:45.035 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.1267ms
+2024-12-27 18:13:48.940 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/ - null null
+2024-12-27 18:13:48.977 +05:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-12-27 18:13:48.980 +05:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-12-27 18:13:48.982 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/ - 200 null text/plain; charset=utf-8 41.807ms
+2024-12-27 18:13:53.238 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 18:13:53.244 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 18:13:55.564 +05:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 18:13:55.832 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 18:13:55.865 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 2627.0283ms
+2024-12-27 20:24:54.200 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:24:54.317 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:24:54.368 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:24:55.448 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:24:55.453 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:24:55.455 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:24:56.443 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:24:56.983 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Services (Inferred)
+cache               | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 20:24:57.215 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 500 null text/html; charset=utf-8 812.9801ms
+2024-12-27 20:24:58.409 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:24:58.551 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:24:58.600 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 48.8862ms
+2024-12-27 20:24:58.802 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 396.124ms
+2024-12-27 20:24:59.117 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/favicon.ico - null null
+2024-12-27 20:24:59.136 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Services (Inferred)
+cache               | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 20:24:59.208 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/favicon.ico - 500 null text/plain; charset=utf-8 90.2962ms
+2024-12-27 20:32:07.729 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:32:07.948 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:32:08.134 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:32:08.135 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:32:09.058 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:32:09.082 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:32:09.084 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:32:09.246 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Services (Inferred)
+cache               | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 20:32:09.447 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 500 null text/html; charset=utf-8 1347.5043ms
+2024-12-27 20:32:20.952 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:32:20.952 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:32:21.017 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 64.943ms
+2024-12-27 20:32:21.214 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 262.0647ms
+2024-12-27 20:32:21.439 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/favicon.ico - null null
+2024-12-27 20:32:21.452 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+service             | Services (Inferred)
+cache               | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|10_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 20:32:21.531 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/favicon.ico - 500 null text/plain; charset=utf-8 92.7959ms
+2024-12-27 20:39:43.683 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:39:43.739 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:39:43.759 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:39:44.097 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:39:44.100 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:39:44.101 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:39:46.083 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:39:47.239 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1190.061ms
+2024-12-27 20:39:47.552 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:39:47.569 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.2141ms
+2024-12-27 20:39:47.588 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:39:47.683 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.9394ms
+2024-12-27 20:39:48.036 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 20:39:48.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.429ms
+2024-12-27 20:39:59.309 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:39:59.338 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:40:01.674 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:40:01.690 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Microsoft.Extensions.Caching.Memory.IMemoryCache' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at lambda_method4(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-27 20:40:01.863 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 500 null text/plain; charset=utf-8 2555.0417ms
+2024-12-27 20:42:08.948 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:42:09.108 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:42:09.142 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:42:10.117 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:42:10.640 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:42:10.640 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:42:10.772 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:42:11.557 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:42:11.557 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:42:11.561 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 785.4284ms
+2024-12-27 20:42:11.586 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 28.9323ms
+2024-12-27 20:42:11.776 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 219.4127ms
+2024-12-27 20:42:12.008 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 20:42:12.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.3077ms
+2024-12-27 20:42:18.524 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:18.555 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:20.703 +05:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:42:20.845 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:20.863 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 2340.5333ms
+2024-12-27 20:42:24.981 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:24.987 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:25.119 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:25.123 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 142.4781ms
+2024-12-27 20:42:26.059 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:26.069 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:26.109 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:26.112 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 53.1036ms
+2024-12-27 20:42:28.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:29.019 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:29.022 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:29.026 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 72.555ms
+2024-12-27 20:42:33.699 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:33.703 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:33.706 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:33.711 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 12.6213ms
+2024-12-27 20:42:39.732 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:39.736 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:39.739 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:39.745 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 13.8397ms
+2024-12-27 20:42:48.714 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:42:48.916 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:42:48.936 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:42:49.749 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:42:49.818 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:42:49.883 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:42:49.884 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:42:50.731 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 988.6138ms
+2024-12-27 20:42:50.771 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:42:50.799 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:42:50.886 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 115.5176ms
+2024-12-27 20:42:51.148 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 348.6798ms
+2024-12-27 20:42:51.450 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 20:42:51.488 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.8135ms
+2024-12-27 20:42:54.284 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:42:54.313 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:42:57.322 +05:00 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:42:57.893 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:42:58.046 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 3763.3124ms
+2024-12-27 20:43:00.386 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:00.426 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:00.592 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:00.670 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 283.8901ms
+2024-12-27 20:43:01.586 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:01.595 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:01.637 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:01.643 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 58.03ms
+2024-12-27 20:43:02.280 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:02.289 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.296 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.299 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 18.9427ms
+2024-12-27 20:43:02.707 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:02.713 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.717 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.720 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 13.0878ms
+2024-12-27 20:43:02.902 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:02.910 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.916 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:02.925 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 22.3615ms
+2024-12-27 20:43:03.051 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:03.055 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:03.058 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:03.060 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 9.2634ms
+2024-12-27 20:43:05.192 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:05.231 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:05.236 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:05.239 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 47.4999ms
+2024-12-27 20:43:08.303 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:43:08.317 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:43:08.320 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:43:08.322 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 18.6496ms
+2024-12-27 20:44:23.158 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 20:44:23.268 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 20:44:23.317 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 20:44:26.197 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 20:44:26.477 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 20:44:26.879 +05:00 [INF] Hosting environment: Development
+2024-12-27 20:44:26.913 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 20:44:27.679 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1705.7598ms
+2024-12-27 20:44:27.820 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 20:44:27.831 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 20:44:28.457 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 636.16ms
+2024-12-27 20:44:28.605 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 773.3622ms
+2024-12-27 20:44:29.453 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 20:44:29.503 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.7602ms
+2024-12-27 20:44:35.319 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:35.354 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:38.123 +05:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:38.329 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:38.350 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 3030.8832ms
+2024-12-27 20:44:41.044 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:41.074 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:41.188 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:41.192 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:41.199 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 155.2946ms
+2024-12-27 20:44:41.958 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:41.962 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:42.001 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:42.006 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:42.008 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 49.9932ms
+2024-12-27 20:44:42.561 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:42.566 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:42.578 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:42.581 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:42.586 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 25.1231ms
+2024-12-27 20:44:43.129 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:43.136 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.145 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:43.149 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.152 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 23.1921ms
+2024-12-27 20:44:43.310 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:43.325 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.329 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:43.333 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.339 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 28.6308ms
+2024-12-27 20:44:43.476 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:43.481 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.485 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:43.494 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:43.495 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 19.7342ms
+2024-12-27 20:44:46.926 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:46.933 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:46.940 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:46.952 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:46.956 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 30.596ms
+2024-12-27 20:44:49.159 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 20:44:49.171 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 20:44:49.181 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 20:44:49.186 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 20:44:49.192 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 33.278ms
+2024-12-27 23:21:36.828 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 23:21:36.946 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 23:21:36.970 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 23:21:41.436 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 23:21:42.365 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 23:21:42.433 +05:00 [INF] Hosting environment: Development
+2024-12-27 23:21:44.003 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 23:21:44.962 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 2740.2451ms
+2024-12-27 23:21:49.556 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 23:21:49.642 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 85.9154ms
+2024-12-27 23:21:50.257 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 23:21:50.553 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 295.83ms
+2024-12-27 23:21:52.311 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 23:21:52.339 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.405ms
+2024-12-27 23:22:29.134 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/products - null null
+2024-12-27 23:22:29.161 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2024-12-27 23:22:34.160 +05:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name"
+FROM product AS p
+2024-12-27 23:22:34.302 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2024-12-27 23:22:34.320 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/products - 200 null application/json; charset=utf-8 5185.4454ms
+2024-12-27 23:23:57.976 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 23:23:58.074 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 23:23:58.094 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 23:23:58.398 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 23:23:58.401 +05:00 [INF] Hosting environment: Development
+2024-12-27 23:23:58.402 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 23:23:59.808 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 23:24:00.390 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 601.2692ms
+2024-12-27 23:24:00.630 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 23:24:00.647 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 16.2839ms
+2024-12-27 23:24:00.904 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 23:24:01.068 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.966ms
+2024-12-27 23:24:02.103 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 23:24:02.146 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.6372ms
+2024-12-27 23:24:09.808 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-27 23:24:09.827 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-27 23:24:11.423 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-27 23:24:11.426 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:24:11.515 +05:00 [ERR] Exception: Random Exception
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:24:11.570 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 500 null application/json; charset=utf-8 1762.8067ms
+2024-12-27 23:46:14.326 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 23:46:14.492 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 23:46:14.539 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 23:46:15.854 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 23:46:16.798 +05:00 [INF] Hosting environment: Development
+2024-12-27 23:46:16.810 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 23:46:17.165 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 23:46:18.227 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 1093.5954ms
+2024-12-27 23:46:18.576 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 23:46:18.577 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 23:46:18.636 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 59.8306ms
+2024-12-27 23:46:18.759 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 182.3618ms
+2024-12-27 23:46:19.101 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 23:46:19.235 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.1155ms
+2024-12-27 23:46:23.047 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-27 23:46:23.258 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-27 23:46:26.562 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-27 23:46:26.574 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:46:26.815 +05:00 [ERR] Exception: Random Exception
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:46:26.904 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 500 null application/json; charset=utf-8 3857.9296ms
+2024-12-27 23:57:57.361 +05:00 [INF] Now listening on: https://localhost:7064
+2024-12-27 23:57:57.434 +05:00 [INF] Now listening on: http://localhost:5080
+2024-12-27 23:57:57.456 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-27 23:57:57.849 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-27 23:57:57.861 +05:00 [INF] Hosting environment: Development
+2024-12-27 23:57:57.878 +05:00 [INF] Content root path: D:\Projects\Github\CleanBoilerplate\src\API
+2024-12-27 23:57:58.527 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - null null
+2024-12-27 23:57:59.133 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - 200 null text/html;charset=utf-8 623.9028ms
+2024-12-27 23:57:59.354 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-27 23:57:59.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 54.0234ms
+2024-12-27 23:57:59.831 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/_vs/browserLink - null null
+2024-12-27 23:57:59.954 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.449ms
+2024-12-27 23:58:01.121 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - null null
+2024-12-27 23:58:01.149 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.5557ms
+2024-12-27 23:58:12.816 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7064/api/products - null null
+2024-12-27 23:58:12.837 +05:00 [INF] Executing endpoint 'HTTP: GET /api/products'
+2024-12-27 23:58:14.244 +05:00 [INF] Executed endpoint 'HTTP: GET /api/products'
+2024-12-27 23:58:14.250 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:58:14.353 +05:00 [ERR] Exception: Random Exception
+System.Exception: Random Exception
+   at API.Endpoints.ProductEndpoints.<>c.<<MapProductEndpoints>b__0_0>d.MoveNext() in D:\Projects\Github\CleanBoilerplate\src\API\Endpoints\ProductEndpoints.cs:line 14
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfT>g__ExecuteAwaited|133_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-27 23:58:14.395 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7064/api/products - 500 null application/json; charset=utf-8 1579.012ms
